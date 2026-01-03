@@ -1,0 +1,45 @@
+{
+    "name": "ayascell-browser",
+    "version": "1.0.0",
+    "description": "Ayascell Software tarafından geliştirilen Chrome tabanlı tarayıcı.",
+    "main": "main.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "electron:dev": "concurrently \"npm run dev\" \"wait-on tcp:5173 && electron .\"",
+        "electron:build": "vite build && electron-builder"
+    },
+    "author": "Ayascell Software",
+    "license": "ISC",
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.2.1",
+        "concurrently": "^8.2.2",
+        "electron": "^28.2.0",
+        "electron-builder": "^24.9.1",
+        "vite": "^5.0.12",
+        "wait-on": "^7.2.0"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "lucide-react": "^0.314.0",
+        "framer-motion": "^10.18.0"
+    },
+    "build": {
+        "appId": "com.ayascell.browser",
+        "productName": "Ayascell Browser",
+        "directories": {
+            "output": "dist-electron"
+        },
+        "files": [
+            "dist/**/*",
+            "main.js",
+            "assets/**/*"
+        ],
+        "win": {
+            "target": "nsis",
+            "icon": "assets/logo.jpg"
+        }
+    }
+}
