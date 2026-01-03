@@ -33,7 +33,7 @@ Bu projeyi bilgisayarınızda çalıştırmak veya kendi `.exe` dosyanızı olu�
 1.  Projeyi klonlayın:
     ```bash
     git clone https://github.com/AYASCELL/Ayascell-Browser.git
-    cd Byascell-Browser
+    cd Ayascell-Browser
     ```
 
 2.  Bağımlılıkları yükleyin:
