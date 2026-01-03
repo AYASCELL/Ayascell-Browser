@@ -16,8 +16,8 @@
 
 Uygulama **Cross-Platform** (Çoklu Platform) desteğine sahiptir:
 
-*   **Windows:** Windows 10 ve 11 (x64) - `.exe` ve `.msi`
-*   **Linux:** Ubuntu, Debian, Fedora vb. - `.AppImage`, `.snap`, `.deb`
+*   **Windows:** Windows 10 ve 11 (x64) - `.exe`
+*   **Linux:** Ubuntu, Debian, Fedora vb. - `.AppImage`, `.snap`
 *   **macOS:** (Kaynak koddan derlenebilir)
 
 ## 🛠️ Kurulum ve Derleme (Build)
