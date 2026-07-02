@@ -25,3 +25,9 @@ Bu proje **MIT Lisansı** ile lisanslanmıştır. Yani tamamen ücretsizdir, kay
 <p align="center">
   Developed with ❤️ by <b>Ayascell Software</b>
 </p>
+
+## Görseller
+
+
+<img width="1222" height="832" alt="image" src="https://github.com/user-attachments/assets/45c89835-06c4-47e5-89c0-0329a67ead91" />
+
